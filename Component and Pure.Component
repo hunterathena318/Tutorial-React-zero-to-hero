@@ -1,0 +1,9 @@
+1. Function Component
+   - re-render lien tuc neu component cha re-render
+2. Component
+  Class test extends React.Component : 
+      - sử dụng shouldComponentUpdate  để check re-render
+3. Pure.Component
+      - không re-render nếu ko có gì thay đổi
+      - nếu thay đổi thì nên dùng shallow coppy
+  
